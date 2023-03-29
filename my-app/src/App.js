@@ -1,5 +1,6 @@
 import { React, useState, useEffect } from 'react';
 import './App.css';
+import MovieList from './Components/MovieList';
 import Moviecard from './Components/Moviecard';
 import Searchresult from './Components/Searchresults';
 
@@ -22,7 +23,7 @@ function App() {
    return (
     <>
     <Searchresult searchValue={searchValue} setSearchValue={setSearchValue}/>
-    <Moviecard movies={movies} />
+    <MovieList movies={movies} />
     </>
    )
 }
@@ -30,5 +31,5 @@ function App() {
 
 export default App;
 
-//Kilde: Felleskoding i forelesning/Ann Charlotts kode fra github.
+//Kilde: Felleskoding i forelesning/Ann Charlotts kode fra github
 
