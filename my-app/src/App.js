@@ -11,7 +11,6 @@ function App() {
     const URL = `http://www.omdbapi.com/?apikey=83cfc641&s=${searchValue}`;
     const response = await fetch(URL);
     const responseJson = await response.json();
-    console.log(responseJson);
     setMovies(responseJson.Search);
     };
     
@@ -30,4 +29,6 @@ function App() {
 
 
 export default App;
+
+//Kilde: Felleskoding i forelesning/Ann Charlotts kode fra github.
 
