@@ -31,5 +31,5 @@ function App() {
 
 export default App;
 
-//Kilde: Felleskoding i forelesning/Ann Charlotts kode fra github
+//Kilde: Felleskoding i forelesning/Ann Charlotts
 
